@@ -66,17 +66,10 @@ ul {
 
 #showcase {
   background-color: #f4f4f4;
+  /* display: grid; */
   display: flex;
   justify-content: space-between;
-   /* grid-template-columns: repeat(2, auto); */
-}
-
-#showcase .diagonal-line {
-  background: rgba(204, 11, 11, 0.8);
-  width: 15px;
-  transform: rotate(15deg);
-  height: 100%;
-  margin-left: 2rem;
+   /* grid-template-columns: repeat(3, auto); */
 }
 
 #showcase .showcase-content {
