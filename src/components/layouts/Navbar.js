@@ -8,12 +8,12 @@ const Navbar = () => {
         </div>
         <div className='navbar-links'>
           <ul>
-            <li><a href='!#' className='current'>Home</a></li>
-            <li><a href='!#'>Pages</a></li>
-            <li><a href='!#'>Blog</a></li>
-            <li><a href='!#'>Cars</a></li>
-            <li><a href='!#'>Contact Us</a></li>
-            <li><a href='!#'><i className="fas fa-search"></i></a></li>
+            <li><a href='#' className='current'>Home</a></li>
+            <li><a href='#'>Pages</a></li>
+            <li><a href='#'>Blog</a></li>
+            <li><a href='#'>Cars</a></li>
+            <li><a href='#'>Contact Us</a></li>
+            <li><a href='#'><i className="fas fa-search"></i></a></li>
           </ul>
         </div>
       </div>
