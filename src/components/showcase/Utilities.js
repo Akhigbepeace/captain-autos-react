@@ -3,10 +3,6 @@ import React from 'react'
 const Utilities = () => {
   return (
     <div id='utilities'>
-      <div>
-        <i className="fa-solid fa-phone"></i>
-        <p>CONTACT US</p>
-      </div>
        <div>
         <i className="fa-solid fa-car"></i>
         <p>NEW VEHICLES</p>

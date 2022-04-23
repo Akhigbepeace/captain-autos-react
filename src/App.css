@@ -66,17 +66,23 @@ ul {
 
 #showcase {
   background-color: #f4f4f4;
-  /* display: grid; */
   display: flex;
-  justify-content: space-between;
-   /* grid-template-columns: repeat(3, auto); */
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 4rem;
+}
+
+#showcase .showcase-img img {
+  width: 150%;
+  transform: scaleX(-1);
 }
 
 #showcase .showcase-content {
-  background: url('./resources/img/Happy Family.jpg') no-repeat center center/cover;
+  background: url('../public/img/Happy\ Family.jpg') no-repeat center center/cover;
   color: #fff;
   height: 20rem;
   width: 40rem;
+  margin-left: 13rem;
 }
 
 #showcase .showcase-content .background-content {
@@ -97,10 +103,10 @@ ul {
 
 #showcase .showcase-content .background-content .header-content p {
   margin-top: 2rem;
-  line-height: 10px;
-  line-height: 1rem;
+  line-height: 1.5rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 3rem;
+  font-weight: 800;
 }
 
 #showcase .showcase-content .background-content .header-content p:nth-child(2) {
@@ -115,7 +121,7 @@ ul {
   width: 22%;
   border: none;
   font-weight: 600;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   cursor: pointer;
 } 
 
@@ -127,8 +133,8 @@ ul {
 }
 
 #utilities {
-  display: grid;
-  grid-template-columns: repeat(6, auto);
+  display: flex;
+  justify-content: space-around;
 }
 
 #utilities div  {
@@ -144,6 +150,7 @@ ul {
 
 #utilities div p  {
   font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #find-your-car {
@@ -153,7 +160,7 @@ ul {
 }
 
 #find-your-car .car-image {
-  background: url('./resources/img/Happy\ Family.jpg') center center/cover;
+  background: url('../public/img/Happy\ Family.jpg') center center/cover;
   margin-right: 20px;
 }
 

@@ -4,7 +4,7 @@ const Showcase = () => {
   return (
     <div id='showcase'>
       <div className='showcase-img'>
-        <img src="https://www.123rf.com/photo_5322597_white-hybrid-vehicle-isolated-on-white-background.html" alt="Cars"/>
+        <img src="./img/download.jpg" alt="" />
       </div>
 
       <div className='showcase-content'>
